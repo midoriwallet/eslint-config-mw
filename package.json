@@ -1,0 +1,32 @@
+{
+  "name": "@goastian/eslint-config-mw",
+  "version": "3.0.1",
+  "description": "Midori Wallet shared eslint config",
+  "author": "Midori Wallet <contact@astian.org> (https://astian.org/)",
+  "main": "eslint.config.js",
+  "type": "module",
+  "scripts": {
+    "test": "eslint --report-unused-disable-directives ."
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/midoriwallet/eslint-config-mw.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@eslint/js": "^9.0.0",
+    "globals": "^16.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0"
+  },
+  "peerDependencies": {
+    "eslint": "^9.0.0"
+  },
+  "publishConfig": {
+  "access": "public"
+}
+}
